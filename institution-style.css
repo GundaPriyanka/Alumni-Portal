@@ -101,8 +101,8 @@
        padding: 10px;
        margin: 0;
      }
-     .select a {
-       display: block;
-       text-decoration: none;
-       color: inherit;
+  .select a {
+     display: block;
+     text-decoration: none;
+     color: inherit;
      }
