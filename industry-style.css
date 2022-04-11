@@ -68,3 +68,41 @@
    .services:hover .dropdown {
     display: block;
    }
+.container {
+       position: relative;
+       padding-left: 180px;
+
+     }
+     .select-checkbox {
+       display: none;
+
+     }
+     .select-label {
+       background-color: white;
+       display: block;
+       border: 1px solid;
+       padding: 4px;
+     }
+     .select-label:before {
+       content: "\25BE";
+       float: right;
+     }
+     .select-wrap {
+       position: absolute;
+       width: 100%;
+       background: #eee;
+       display: none;
+     }
+     .select-checkbox:checked ~ .select-wrap {
+       display: block;
+     }
+     .select {
+       list-style: none;
+       padding: 10px;
+       margin: 0;
+     }
+     .select a {
+       display: block;
+       text-decoration: none;
+       color: inherit;
+     }
